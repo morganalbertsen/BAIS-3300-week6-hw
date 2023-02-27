@@ -1,3 +1,65 @@
-body {
-    background-color: blanchedalmond;
+.wrapper{
+    background-color: whitesmoke;
+
 }
+
+header {
+    background-color: lightsteelblue;
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: lightslategray;
+    margin: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* unvisited link */
+a:link {
+    color: #465E47;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #535753;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #CED6CE;
+    background-color: hotpink;
+    padding: 2px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+main {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: lightsteelblue;
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
