@@ -12,8 +12,9 @@ header {
 
 nav {
     background-color: lightslategray;
-    margin: 10px;
-    padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 15px;
     border-bottom: 1px solid black;
 }
 
@@ -35,7 +36,7 @@ a:link {
   /* mouse over link */
   a:hover {
     color: #CED6CE;
-    background-color: hotpink;
+    background-color: whitesmoke;
     padding: 2px;
   }
   
@@ -55,9 +56,8 @@ footer {
     color: whitesmoke;
 }
 
-table{
-    border-collapse: collapse;
-    width: 50%;
+table, th, td {
+  border: 1px solid;
 }
 
 tr:nth-child(even) {
